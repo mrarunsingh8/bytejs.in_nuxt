@@ -3,9 +3,13 @@ import { ref } from 'vue'
 
 definePageMeta({
     layout: 'toolslayout',
-    title: 'HTTP Header Checker - ByteJS',
+    title: 'HTTP Header Checker - Inspect Headers',
     description:
-        'Inspect and validate HTTP response headers for any URL using the ByteJS HTTP Header Checker tool.'
+        'Inspect and validate HTTP response headers with the free HTTP Header Checker tool on ByteJS. Check headers for any URL, analyze status codes, content types, security settings, and caching directives instantly—no downloads required.'
+})
+
+useSeoMeta({
+    keywords: 'HTTP header checker, inspect HTTP headers, HTTP status codes, response headers, HTTP analyzer, header inspector, web debugging tool, SEO headers, security headers, cache headers, content-type checker'
 })
 
 const toast = useToast()

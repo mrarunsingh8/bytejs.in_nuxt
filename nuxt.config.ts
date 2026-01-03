@@ -3,6 +3,16 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: 'page', mode: 'in-out' },
     head: {
+      link: [
+        {
+          rel: 'preconnect',
+          href: 'https://www.googletagmanager.com'
+        },
+        {
+          rel: 'canonical',
+          href: 'https://www.bytejs.in/'
+        }
+      ],
       script: [
         {
           innerHTML: `

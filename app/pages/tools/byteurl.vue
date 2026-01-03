@@ -2,9 +2,13 @@
 <script setup>
 definePageMeta({
     layout: 'toolslayout',
-    title: 'ByteURL - Coming Soon | ByteJS',
+    title: 'ByteURL - Free URL Shortening Tool',
     description:
-        'ByteURL is coming soon! Stay tuned for our upcoming URL shortening tool that will help you create short, shareable links quickly and securely.'
+        'ByteURL is a free URL shortening tool coming soon on ByteJS. Create short, shareable links instantly from long URLs. Perfect for social media, emails, and messaging. Simple, fast, and secure link management with tracking and custom URL options available.'
+})
+
+useSeoMeta({
+    keywords: 'URL shortener, shorten URLs, short links, free URL shortener, link shortener, URL compression, create short URLs, custom short URLs, shareable links, URL management tool, bitly alternative'
 })
 
 const items = ref([

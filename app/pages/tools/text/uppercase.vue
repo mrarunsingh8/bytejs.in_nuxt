@@ -3,9 +3,13 @@ import { ref, watch } from 'vue'
 
 definePageMeta({
     layout: 'toolslayout',
-    title: 'Uppercase Text Converter - ByteJS',
-    description: 'Convert your text to uppercase quickly and easily with our online uppercase text converter tool.'
+    title: 'Uppercase Converter - Convert Text Online',
+    description: 'Convert text to uppercase instantly with the free Uppercase Converter on ByteJS. Transform any text to uppercase letters with one click. Perfect for formatting, headers, and text standardization. No installation needed.'
 });
+
+useSeoMeta({
+    keywords: 'uppercase converter, convert to uppercase, text to uppercase, uppercase tool, case converter, text formatter, online text tool, uppercase letters, convert case, text case converter, uppercase generator'
+})
 
 const toast = useToast()
 const inputText = ref('')

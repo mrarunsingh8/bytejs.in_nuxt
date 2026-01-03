@@ -1,11 +1,15 @@
 <script setup lang="ts">
 definePageMeta({
     layout: 'toolslayout',
-    title: 'UUID Generator - ByteJS',
-    description: 'Generate universally unique identifiers (UUIDs) for your applications quickly and easily with our online UUID generator tool.'
+    title: 'UUID Generator - Free Online Tool',
+    description: 'Generate UUID v4 identifiers instantly with the free UUID Generator on ByteJS. Create unique identifiers for applications, databases, and system identification. Copy to clipboard instantly. No registration required. Perfect for developers and system administrators.'
 });
-import { ref } from 'vue'
+
 const toast = useToast()
+
+useSeoMeta({
+    keywords: 'UUID generator, UUID v4, generate UUID, unique identifier, online UUID tool, free UUID generator, GUID generator, random UUID, UUID for applications, UUID for databases'
+})
 
 const uuid = ref(crypto.randomUUID())
 

@@ -2,9 +2,13 @@
 <script setup>
 definePageMeta({
     layout: 'toolslayout',
-    title: 'ByteURL - Coming Soon | ByteJS',
+    title: 'JSON Formatter - Format & Validate JSON',
     description:
-        'ByteURL is coming soon! Stay tuned for our upcoming URL shortening tool that will help you create short, shareable links quickly and securely.'
+        'Format, validate, and beautify JSON instantly with the free JSON Formatter tool on ByteJS. Minify or pretty-print JSON, check for syntax errors, and convert between JSON formats. Perfect for developers debugging APIs and working with data.'
+})
+
+useSeoMeta({
+    keywords: 'JSON formatter, format JSON, JSON validator, beautify JSON, minify JSON, JSON pretty printer, JSON tools, validate JSON syntax, JSON linter, online JSON formatter, JSON converter'
 })
 
 const items = ref([

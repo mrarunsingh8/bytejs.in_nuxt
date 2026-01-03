@@ -11,8 +11,8 @@ useHead({
   }
 })
 
-const title = 'ByteJS – Free Online Developer Tools: URL Shortener, QR Codes, JSON Formatter'
-const description = 'ByteJS is a free all-in-one toolkit for developers. Create short URLs, generate QR codes, format & validate JSON, check HTTP headers, generate UUIDs, and more.'
+const title = 'ByteJS - Free Developer Tools Online'
+const description = 'ByteJS is a free online toolkit for developers to simplify everyday tasks. Generate QR codes, shorten URLs, format JSON, validate HTTP headers, create UUIDs, and convert text formats directly in your browser—no installation required.'
 
 useSeoMeta({
   title,

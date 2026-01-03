@@ -2,9 +2,13 @@
 <script setup>
 definePageMeta({
     layout: 'toolslayout',
-    title: 'ByteURL - Coming Soon | ByteJS',
+    title: 'QR Code Generator - Create QR Codes',
     description:
-        'ByteURL is coming soon! Stay tuned for our upcoming URL shortening tool that will help you create short, shareable links quickly and securely.'
+        'Generate QR codes instantly with the free QR Code Generator on ByteJS. Create QR codes from URLs, text, and data. Customize colors, size, and error correction. Download as PNG or SVG. Perfect for marketing, inventory, and sharing information.'
+})
+
+useSeoMeta({
+    keywords: 'QR code generator, generate QR codes, free QR code, create QR code, QR code maker, QR code converter, custom QR codes, QR code design, QR code tracking, marketing QR codes, inventory tracking'
 })
 
 const items = ref([
