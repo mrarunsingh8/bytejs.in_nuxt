@@ -19,8 +19,8 @@ useSeoMeta({
   description,
   ogTitle: title,
   ogDescription: description,
-  ogImage: 'https://bytejs.in/og-image.png',
-  twitterImage: 'https://bytejs.in/og-image.png',
+  ogImage: 'https://www.bytejs.in/og-image.png',
+  twitterImage: 'https://www.bytejs.in/og-image.png',
   twitterCard: 'summary_large_image'
 })
 
