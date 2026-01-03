@@ -27,8 +27,28 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxt/eslint',
-    '@nuxt/ui'
+    '@nuxt/ui',
+    '@nuxtjs/robots',
+    '@nuxtjs/sitemap'
   ],
+
+  site: {
+    url: 'https://bytejs.in'
+  },
+
+  sitemap: {
+    strictNuxtContentPaths: true
+  },
+
+  robots: {
+    rules: [
+      {
+        userAgent: '*',
+        allow: '/'
+      }
+    ],
+    sitemap: 'https://bytejs.in/sitemap.xml'
+  },
 
   devtools: {
     enabled: true
