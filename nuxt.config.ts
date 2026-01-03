@@ -67,7 +67,13 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   routeRules: {
-    '/': { prerender: true }
+    '/': { prerender: true },
+    // Override hosting default "content-signal" header on robots.txt
+    '/robots.txt': {
+      headers: {
+        'content-signal': ''
+      }
+    }
   },
 
   compatibilityDate: '2025-01-15',
