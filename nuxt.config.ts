@@ -43,7 +43,7 @@ export default defineNuxtConfig({
   ],
 
   site: {
-    url: 'https://bytejs.in'
+    url: 'https://www.bytejs.in'
   },
 
   sitemap: {
@@ -57,7 +57,7 @@ export default defineNuxtConfig({
         allow: '/'
       }
     ],
-    sitemap: 'https://bytejs.in/sitemap.xml'
+    sitemap: 'https://www.bytejs.in/sitemap.xml'
   },
 
   devtools: {

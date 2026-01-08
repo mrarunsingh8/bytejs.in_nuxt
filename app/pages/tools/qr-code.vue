@@ -14,7 +14,7 @@ useSeoMeta({
 })
 
 const toast = useToast()
-const inputText = ref('https://bytejs.in')
+const inputText = ref('https://www.bytejs.in')
 const qrCodeDataUrl = ref('')
 const qrSize = ref(300)
 const errorCorrection = ref('M')
