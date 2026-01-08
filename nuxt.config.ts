@@ -38,8 +38,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
     '@nuxt/ui',
-    '@nuxtjs/robots',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/seo'
   ],
 
   site: {
