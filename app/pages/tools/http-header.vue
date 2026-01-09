@@ -73,7 +73,7 @@ const items = ref([
     {
         label: 'HTTP Header Checker',
         icon: 'i-lucide-server',
-        to: '/tools/http-headers'
+        to: '/tools/http-header'
     }
 ])
 </script>
