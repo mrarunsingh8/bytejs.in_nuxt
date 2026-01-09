@@ -2,12 +2,12 @@
 import { ref, watch } from 'vue'
 
 definePageMeta({
-    layout: 'toolslayout',
-    title: 'Lowercase Converter - Convert Text Online',
-    description: 'Convert text to lowercase instantly with the free Lowercase Converter on ByteJS. Transform any text to lowercase letters with one click. Perfect for formatting, data processing, and text standardization. No installation needed.'
+    layout: 'toolslayout'
 });
 
 useSeoMeta({
+    title: 'Lowercase Converter - Convert Text Online',
+    description: 'Convert text to lowercase instantly with the free Lowercase Converter on ByteJS. Transform any text to lowercase letters with one click. Perfect for formatting, data processing, and text standardization. No installation needed.',
     keywords: 'lowercase converter, convert to lowercase, text to lowercase, lowercase tool, case converter, text formatter, online text tool, lowercase letters, convert case, text case converter, lowercase generator'
 })
 

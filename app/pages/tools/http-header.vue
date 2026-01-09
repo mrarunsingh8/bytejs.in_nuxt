@@ -2,13 +2,12 @@
 import { ref } from 'vue'
 
 definePageMeta({
-    layout: 'toolslayout',
-    title: 'HTTP Header Checker - Inspect Headers',
-    description:
-        'Inspect and validate HTTP response headers with the free HTTP Header Checker tool on ByteJS. Check headers for any URL, analyze status codes, content types, security settings, and caching directives instantly—no downloads required.'
+    layout: 'toolslayout'
 })
 
 useSeoMeta({
+    title: 'HTTP Header Checker - Inspect Headers',
+    description: 'Inspect and validate HTTP response headers with the free HTTP Header Checker tool on ByteJS. Check headers for any URL, analyze status codes, content types, security settings, and caching directives instantly—no downloads required.',
     keywords: 'HTTP header checker, inspect HTTP headers, HTTP status codes, response headers, HTTP analyzer, header inspector, web debugging tool, SEO headers, security headers, cache headers, content-type checker'
 })
 

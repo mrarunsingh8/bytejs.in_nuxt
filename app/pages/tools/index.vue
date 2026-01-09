@@ -1,12 +1,11 @@
 <script setup lang="ts">
 definePageMeta({
-    layout: 'toolslayout',
-    title: 'Free Developer Tools - ByteJS Toolkit',
-    description:
-        'Explore ByteJS free developer tools: URL shortener, QR code generator, JSON formatter, UUID generator, HTTP header checker, and text case converters. All tools run instantly in your browser with no installation required.',
+    layout: 'toolslayout'
 })
 
 useSeoMeta({
+    title: 'Free Developer Tools - ByteJS Toolkit',
+    description: 'Explore ByteJS free developer tools: URL shortener, QR code generator, JSON formatter, UUID generator, HTTP header checker, and text case converters. All tools run instantly in your browser with no installation required.',
     keywords: 'developer tools, free online tools, ByteJS, web tools, URL shortener, QR code generator, JSON formatter, UUID generator, HTTP header checker, text converter, online utilities, code tools, productivity tools'
 })
 

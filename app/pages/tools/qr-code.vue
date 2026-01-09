@@ -3,13 +3,12 @@ import { ref, watch, computed } from 'vue'
 import QRCode from 'qrcode'
 
 definePageMeta({
-    layout: 'toolslayout',
-    title: 'QR Code Generator - Create QR Codes',
-    description:
-        'Generate QR codes instantly with the free QR Code Generator on ByteJS. Create QR codes from URLs, text, and data. Customize colors, size, and error correction. Download as PNG or SVG. Perfect for marketing, inventory, and sharing information.'
+    layout: 'toolslayout'
 })
 
 useSeoMeta({
+    title: 'QR Code Generator - Create QR Codes',
+    description: 'Generate QR codes instantly with the free QR Code Generator on ByteJS. Create QR codes from URLs, text, and data. Customize colors, size, and error correction. Download as PNG or SVG. Perfect for marketing, inventory, and sharing information.',
     keywords: 'QR code generator, generate QR codes, free QR code, create QR code, QR code maker, QR code converter, custom QR codes, QR code design, QR code tracking, marketing QR codes, inventory tracking'
 })
 

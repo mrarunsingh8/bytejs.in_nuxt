@@ -2,12 +2,12 @@
 import { ref, watch } from 'vue'
 
 definePageMeta({
-    layout: 'toolslayout',
-    title: 'Title Case Converter - Convert Text Online',
-    description: 'Convert text to title case instantly with the free Title Case Converter on ByteJS. Capitalize the first letter of each word effortlessly. Perfect for headlines, titles, and proper formatting. No installation required.'
+    layout: 'toolslayout'
 });
 
 useSeoMeta({
+    title: 'Title Case Converter - Convert Text Online',
+    description: 'Convert text to title case instantly with the free Title Case Converter on ByteJS. Capitalize the first letter of each word effortlessly. Perfect for headlines, titles, and proper formatting. No installation required.',
     keywords: 'title case converter, convert to title case, text to title case, capitalize words, case converter, text formatter, online text tool, sentence case, title formatter, text case converter, word capitalization'
 })
 

@@ -1,13 +1,13 @@
 <script setup lang="ts">
 definePageMeta({
-    layout: 'toolslayout',
-    title: 'UUID Generator - Free Online Tool',
-    description: 'Generate UUID v4 identifiers instantly with the free UUID Generator on ByteJS. Create unique identifiers for applications, databases, and system identification. Copy to clipboard instantly. No registration required. Perfect for developers and system administrators.'
+    layout: 'toolslayout'
 });
 
 const toast = useToast()
 
 useSeoMeta({
+    title: 'UUID Generator - Free Online Tool',
+    description: 'Generate UUID v4 identifiers instantly with the free UUID Generator on ByteJS. Create unique identifiers for applications, databases, and system identification. Copy to clipboard instantly. No registration required. Perfect for developers and system administrators.',
     keywords: 'UUID generator, UUID v4, generate UUID, unique identifier, online UUID tool, free UUID generator, GUID generator, random UUID, UUID for applications, UUID for databases'
 })
 

@@ -2,13 +2,12 @@
 import { ref } from 'vue'
 
 definePageMeta({
-    layout: 'toolslayout',
-    title: 'JSON Formatter - Format & Validate JSON',
-    description:
-        'Format, validate, and beautify JSON instantly with the free JSON Formatter tool on ByteJS. Minify or pretty-print JSON, check for syntax errors, and convert between JSON formats. Perfect for developers debugging APIs and working with data.'
+    layout: 'toolslayout'
 })
 
 useSeoMeta({
+    title: 'JSON Formatter - Format & Validate JSON',
+    description: 'Format, validate, and beautify JSON instantly with the free JSON Formatter tool on ByteJS. Minify or pretty-print JSON, check for syntax errors, and convert between JSON formats. Perfect for developers debugging APIs and working with data.',
     keywords: 'JSON formatter, format JSON, JSON validator, beautify JSON, minify JSON, JSON pretty printer, JSON tools, validate JSON syntax, JSON linter, online JSON formatter, JSON converter'
 })
 
