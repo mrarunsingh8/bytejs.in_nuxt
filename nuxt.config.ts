@@ -1,43 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  /**
-   * We keep SSR enabled globally,
-   * but prerender + cache static pages
-   */
-  ssr: true,
-
-  /**
-   * Nitro: Prerender all static pages
-   */
-  nitro: {
-    prerender: {
-      routes: [
-        '/',
-        '/tools/json-formatter',
-        '/tools/qr-code',
-        '/tools/byteurl',
-        '/tools/uuid',
-        '/tools/text/uppercase',
-        '/tools/http-header'
-      ]
-    }
-  },
-
-  /**
-   * Nuxt modules
-   */
   modules: [
     '@nuxt/eslint',
     '@nuxt/ui',
     '@nuxtjs/seo'
   ],
-
-  /**
-   * Global <head> config
-   */
   app: {
     pageTransition: { name: 'page', mode: 'in-out' },
-
     head: {
       /**
        * Preconnect improves GTM performance
@@ -71,26 +40,14 @@ export default defineNuxtConfig({
     }
   },
 
-  /**
-   * SEO module base config
-   */
   site: {
-    url: 'https://www.bytejs.in',
-    name: 'ByteJS',
-    description:
-      'ByteJS provides free online developer tools like JSON formatter, QR code generator, URL shortener, and more.'
+    url: 'https://www.bytejs.in'
   },
 
-  /**
-   * Sitemap generation
-   */
   sitemap: {
     strictNuxtContentPaths: true
   },
 
-  /**
-   * Robots.txt
-   */
   robots: {
     rules: [
       {
@@ -101,45 +58,17 @@ export default defineNuxtConfig({
     sitemap: 'https://www.bytejs.in/sitemap.xml'
   },
 
-  /**
-   * Route-level rules
-   */
-  routeRules: {
-    /**
-     * Static + cached pages
-     */
-    '/': {
-      prerender: true,
-      cache: { maxAge: 3600 }
-    },
-    '/tools/json-formatter': {
-      prerender: true,
-      cache: { maxAge: 3600 }
-    },
-    '/tools/qr-code': {
-      prerender: true,
-      cache: { maxAge: 3600 }
-    },
-    '/tools/byteurl': {
-      prerender: true,
-      cache: { maxAge: 3600 }
-    },
-    '/tools/uuid': {
-      prerender: true,
-      cache: { maxAge: 3600 }
-    },
-    '/tools/text/uppercase': {
-      prerender: true,
-      cache: { maxAge: 3600 }
-    },
-    '/tools/http-header': {
-      prerender: true,
-      cache: { maxAge: 3600 }
-    },
+  devtools: {
+    enabled: false
+  },
 
-    /**
-     * Fix malformed robots.txt header from Cloudflare
-     */
+  compatibilityDate: '2025-01-15',
+
+  css: ['~/assets/css/main.css'],
+
+  routeRules: {
+    '/': { prerender: true },
+    // Override hosting default "content-signal" header on robots.txt
     '/robots.txt': {
       headers: {
         'content-signal': ''
@@ -147,26 +76,8 @@ export default defineNuxtConfig({
     }
   },
 
-  /**
-   * Global CSS
-   */
-  css: ['~/assets/css/main.css'],
-
-  /**
-   * Disable devtools in production
-   */
-  devtools: {
-    enabled: false
-  },
-
-  /**
-   * Compatibility lock
-   */
   compatibilityDate: '2025-01-15',
 
-  /**
-   * ESLint config
-   */
   eslint: {
     config: {
       stylistic: {
