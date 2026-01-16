@@ -3,6 +3,7 @@ import { ref, watch, computed } from 'vue'
 import QRCode from 'qrcode'
 
 definePageMeta({
+    ssr: false,
     layout: 'toolslayout'
 })
 

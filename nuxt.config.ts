@@ -1,5 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  ssr: true, // keep SSR globally ON
+  nitro: {
+    preset: 'cloudflare' // or node-server, cloudflare, vercel, etc
+  },
   app: {
     pageTransition: { name: 'page', mode: 'in-out' },
     head: {

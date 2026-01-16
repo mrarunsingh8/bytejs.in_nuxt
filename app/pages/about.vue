@@ -1,9 +1,12 @@
 <script setup>
-  useSeoMeta({
-    title: 'About ByteJS - Developer Tools Platform',
-    description: 'Learn about ByteJS, a free online developer toolkit. Discover our mission to simplify everyday development tasks with fast, reliable, browser-based utilities. Built for developers who value efficiency, accuracy, and productivity.',
-    keywords: 'developer tools, online tools, ByteJS, free utilities, web tools, developer toolkit, productivity tools, code utilities, JSON formatter, QR code generator, UUID generator, URL shortener, HTTP header checker'
-  })
+definePageMeta({
+  ssr: false
+})
+useSeoMeta({
+  title: 'About ByteJS - Developer Tools Platform',
+  description: 'Learn about ByteJS, a free online developer toolkit. Discover our mission to simplify everyday development tasks with fast, reliable, browser-based utilities. Built for developers who value efficiency, accuracy, and productivity.',
+  keywords: 'developer tools, online tools, ByteJS, free utilities, web tools, developer toolkit, productivity tools, code utilities, JSON formatter, QR code generator, UUID generator, URL shortener, HTTP header checker'
+})
 </script>
 
 <template>

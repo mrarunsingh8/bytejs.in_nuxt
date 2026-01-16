@@ -1,4 +1,8 @@
-
+<script setup>
+definePageMeta({
+    ssr: false
+})
+</script>
 <template>
   <div>
     <UPageHero

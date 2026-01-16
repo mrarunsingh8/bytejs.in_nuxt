@@ -2,6 +2,7 @@
 import { ref, watch } from 'vue'
 
 definePageMeta({
+    ssr: false,
     layout: 'toolslayout'
 });
 

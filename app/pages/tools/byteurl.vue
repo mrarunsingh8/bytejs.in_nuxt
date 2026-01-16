@@ -1,6 +1,7 @@
 /* Generate the comming sonn page content */
 <script setup>
 definePageMeta({
+    ssr: false,
     layout: 'toolslayout'
 })
 

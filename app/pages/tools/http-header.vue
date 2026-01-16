@@ -2,6 +2,7 @@
 import { ref } from 'vue'
 
 definePageMeta({
+    ssr: false,
     layout: 'toolslayout'
 })
 
