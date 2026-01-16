@@ -1,9 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  ssr: true, // keep SSR globally ON
-  nitro: {
-    preset: 'cloudflare' // or node-server, cloudflare, vercel, etc
-  },
+  modules: [
+    '@nuxt/eslint',
+    '@nuxt/ui',
+    '@nuxtjs/seo'
+  ],
   app: {
     pageTransition: { name: 'page', mode: 'in-out' },
     head: {
@@ -39,11 +40,6 @@ export default defineNuxtConfig({
       ]
     }
   },
-  modules: [
-    '@nuxt/eslint',
-    '@nuxt/ui',
-    '@nuxtjs/seo'
-  ],
 
   site: {
     url: 'https://www.bytejs.in'
