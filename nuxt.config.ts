@@ -13,12 +13,12 @@ export default defineNuxtConfig({
     prerender: {
       routes: [
         '/',
-        '/json-formatter',
-        '/qr-code-generator',
-        '/byteurl',
-        '/uuid-generator',
-        '/text-case-converter',
-        '/http-header-checker'
+        '/tools/json-formatter',
+        '/tools/qr-code',
+        '/tools/byteurl',
+        '/tools/uuid',
+        '/tools/text/uppercase',
+        '/tools/http-header'
       ]
     }
   },
@@ -112,27 +112,27 @@ export default defineNuxtConfig({
       prerender: true,
       cache: { maxAge: 3600 }
     },
-    '/json-formatter': {
+    '/tools/json-formatter': {
       prerender: true,
       cache: { maxAge: 3600 }
     },
-    '/qr-code-generator': {
+    '/tools/qr-code': {
       prerender: true,
       cache: { maxAge: 3600 }
     },
-    '/byteurl': {
+    '/tools/byteurl': {
       prerender: true,
       cache: { maxAge: 3600 }
     },
-    '/uuid-generator': {
+    '/tools/uuid': {
       prerender: true,
       cache: { maxAge: 3600 }
     },
-    '/text-case-converter': {
+    '/tools/text/uppercase': {
       prerender: true,
       cache: { maxAge: 3600 }
     },
-    '/http-header-checker': {
+    '/tools/http-header': {
       prerender: true,
       cache: { maxAge: 3600 }
     },
