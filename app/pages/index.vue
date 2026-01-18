@@ -1,6 +1,6 @@
 <script setup>
 definePageMeta({
-    ssr: false
+    prerender: true
 })
 </script>
 <template>

@@ -5,6 +5,9 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxtjs/seo'
   ],
+  nitro: {
+    preset: 'static'
+  },
   app: {
     pageTransition: { name: 'page', mode: 'in-out' },
     head: {

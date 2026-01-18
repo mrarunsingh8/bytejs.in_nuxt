@@ -95,7 +95,7 @@ watch(() => route.path, () => {
 <template>
   <UHeader>
     <template #left>
-      <NuxtLink to="/">
+      <NuxtLink to="/" aria-label="ByteJS" class="flex items-center gap-2">
         <AppLogo class="w-auto h-6 shrink-0" />
       </NuxtLink>
     </template>

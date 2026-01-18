@@ -1,6 +1,6 @@
 <script setup>
 definePageMeta({
-  ssr: false
+  prerender: true
 })
 useSeoMeta({
   title: 'About ByteJS - Developer Tools Platform',
