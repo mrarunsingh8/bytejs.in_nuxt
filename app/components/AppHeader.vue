@@ -49,6 +49,13 @@ const items = computed(() => [
         active: route.path === '/tools/http-header'
       },
       {
+        label: 'Slugify Text',
+        description: 'Convert any text into clean, URL-friendly slugs.',
+        icon: 'i-lucide-link',
+        to: '/tools/slugify',
+        active: route.path === '/tools/slugify'
+      },
+      {
         label: 'Upper Case',
         description: 'Convert text to upper case quickly.',
         to: '/tools/text/uppercase',
