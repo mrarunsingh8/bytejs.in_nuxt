@@ -56,16 +56,6 @@ const items = ref([
                 </UCard>
 
                 <UCard>
-                    <h3 class="text-lg font-semibold">Text Case Converter</h3>
-                    <p class="text-muted mt-2">
-                        Convert text to lower case, upper case, or title case.
-                    </p>
-                    <UButton to="/tools/text/uppercase" variant="link" class="mt-4 p-0">
-                        Open tool →
-                    </UButton>
-                </UCard>
-
-                <UCard>
                     <h3 class="text-lg font-semibold">JSON Formatter & Validator</h3>
                     <p class="text-muted mt-2">
                         Format and validate JSON data quickly and accurately.
@@ -91,6 +81,48 @@ const items = ref([
                         Inspect and validate HTTP request and response headers.
                     </p>
                     <UButton to="/tools/http-header" variant="link" class="mt-4 p-0">
+                        Open tool →
+                    </UButton>
+                </UCard>
+
+
+
+                <UCard>
+                    <h3 class="text-lg font-semibold">Slugify Text</h3>
+                    <p class="text-muted mt-2">
+                        Convert any text into clean, URL-friendly slugs.
+                    </p>
+                    <UButton to="/tools/slugify" variant="link" class="mt-4 p-0">
+                        Open tool →
+                    </UButton>
+                </UCard>
+
+
+
+                <UCard>
+                    <h3 class="text-lg font-semibold">Upper Case Converter</h3>
+                    <p class="text-muted mt-2">
+                        Convert text to upper case.
+                    </p>
+                    <UButton to="/tools/text/uppercase" variant="link" class="mt-4 p-0">
+                        Open tool →
+                    </UButton>
+                </UCard>
+                <UCard>
+                    <h3 class="text-lg font-semibold">Lower Case Converter</h3>
+                    <p class="text-muted mt-2">
+                        Convert text to lower case.
+                    </p>
+                    <UButton to="/tools/text/lowercase" variant="link" class="mt-4 p-0">
+                        Open tool →
+                    </UButton>
+                </UCard>
+                <UCard>
+                    <h3 class="text-lg font-semibold">Title Case Converter</h3>
+                    <p class="text-muted mt-2">
+                        Convert text to title case.
+                    </p>
+                    <UButton to="/tools/text/titlecase" variant="link" class="mt-4 p-0">
                         Open tool →
                     </UButton>
                 </UCard>

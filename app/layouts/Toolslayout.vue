@@ -28,6 +28,12 @@ const items: NavigationMenuItem[] = [
         to: '/tools/http-header'
     },
     {
+        label: 'Slugify Text',
+        description: 'Convert any text into clean, URL-friendly slugs.',
+        icon: 'i-lucide-link',
+        to: '/tools/slugify',
+    },
+    {
         label: 'Text Converter',
         icon: 'i-lucide-text',
         defaultOpen: true,
