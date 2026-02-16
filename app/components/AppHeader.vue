@@ -77,16 +77,18 @@ const items = computed(() => [
     icon: 'i-lucide-info',
     active: route.path.startsWith('/about')
   },
+  {
+    label: 'Contact',
+    to: '/contact',
+    icon: 'i-lucide-contact',
+    active: route.path.startsWith('/contact')
+  }
   /* {
     label: 'Blog',
     to: '/blog',
     active: route.path.startsWith('/blog')
   },
-  {
-    label: 'Contact',
-    to: '/contact',
-    active: route.path.startsWith('/contact')
-  } */
+   */
 ])
 watch(() => route.path, () => {
   showMobileMenu.value = false
