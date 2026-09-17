@@ -101,15 +101,22 @@ watch(() => route.path, () => {
   showMobileMenu.value = false
 })
 </script>
+
 <template>
   <UHeader>
     <template #left>
-      <NuxtLink to="/" aria-label="ByteJS" class="flex items-center gap-2">
+      <NuxtLink
+        to="/"
+        aria-label="ByteJS"
+        class="flex items-center gap-2"
+      >
         <AppLogo class="w-auto h-6 shrink-0" />
       </NuxtLink>
     </template>
 
-    <UNavigationMenu :items="items" class="w-2xl" />
+    <UNavigationMenu :items="items"
+                     class="w-2xl"
+    />
 
     <template #right>
       <UColorModeButton />
